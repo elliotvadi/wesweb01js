@@ -1,6 +1,9 @@
 // Elliot Vadi, TE20D
 // Subject: Check the number of days in a given month of a given year
 
+var ps = require("prompt-sync");
+var prompt = ps();
+
 console.log("Please enter a year and a month.");
 let y = prompt("Year: ");
 console.log("Valid months:\nJAN\nFEB\nMAR\nAPR\nMAY\nJUN\nJUL\nAUG\nSEP\nOCT\nNOV\nDEC");
