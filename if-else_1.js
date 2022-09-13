@@ -1,6 +1,9 @@
 // Elliot Vadi, TE20D
 // Syfte: Se om givet tal är innanför eller utanför given intervall.
 
+var ps = require("prompt-sync");
+var prompt = ps();
+
 console.log("Input two numbers (intervals)");
 var inter1 = window.prompt("Number 1: ");
 var inter2 = window.prompt("Number 2: ");
